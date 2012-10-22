@@ -6,20 +6,19 @@
   <link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon' />
   <link rel='stylesheet' href='/fonts/open-sans.css'>
   <link rel='stylesheet' href='/app.css'>
+  <link rel='stylesheet' href='/bootstrap.min.css'>
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round|Varela' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div id='container'>
-
     <div id="header">
       <div class="navigation">
         <a href="" class="title">Saul Fablab · School of Architecture, University of Limerick</a>
       </div>
     </div>
-
     <div id='main'><div class="article-navigation">
   
-    <a class="article-link" href="/articles/homepage.html" title="Saul FabLab">
-      
+    <a class="article-link"  rel="tooltip" data-animation="true" data-placement="bottom" href="/articles/homepage.html" title="Home">
     </a>
   
 </div>
@@ -40,9 +39,13 @@
 
 </div>
   </div>
-
   <div id='footer'>
     <div class="footer-content">Saul Fablab · School of Architecture, University of Limerick</div>
   </div>
+  <script src="jquery.js"></script>
+   <script src="bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$("[rel=tooltip]").tooltip();
+	</script>
 </body>
 </html>
