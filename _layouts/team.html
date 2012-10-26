@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include  _pages-navbar.html %}
+
+<div class="intro">
+	<div class="title">{{page.title}}</div>
+	<div class="abstract">{{page.abstract}}</div>
+	<div class="meta"> Last updated on {{ 'now' | date: "%B %d, %Y" }} </div>
+</div>
+
+<div class="article-wrapper">
+	<div class="team post-content">
+		{% for item in site.categories.pages reversed %}
+		<div class="member">
+			<div class="thumbnail">
+				<img src="{{item.image}}">å
+			</div>
+			<div class="title">{{item.title}}</div>
+			<div class="abstract">{{item.abstract}}</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

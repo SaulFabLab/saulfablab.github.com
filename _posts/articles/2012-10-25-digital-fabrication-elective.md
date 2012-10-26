@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: page
 title: Digital Fabrication Elective
 nav: Elective Programme
 abstract: ""
-author_twitter: 
-author: Fablab Team
 categories:
 - pages
 published: true

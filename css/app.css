@@ -1,15 +1,11 @@
-/* ------------------------------------------
-  Reset ♥
-  http://meyerweb.com/eric/tools/css/reset/
-  v2.0 | 20110126
-  License: none (public domain)
----------------------------------------------*/
-/* line 17, ../sass/app.scss */
-html, body, div, span, applet, object, iframe, blockquote, pre,
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, img, ins, kbd, q, s, samp,
-small, strike, sub, sup, tt, var, center,
-dl, dt, dd,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
@@ -24,24 +20,67 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
 /* HTML5 display-role reset for older browsers */
-/* line 27, ../sass/app.scss */
+/* line 7, ../sass/app.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 30, ../sass/app.scss */
+/* line 10, ../sass/app.scss */
 body {
   line-height: 1;
 }
 
-/* line 31, ../sass/app.scss */
+/* line 11, ../sass/app.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 33, ../sass/app.scss */
+/* line 13, ../sass/app.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -49,19 +88,19 @@ q:before, q:after {
 }
 
 /* tables still need 'cellspacing="0"' in the markup */
-/* line 35, ../sass/app.scss */
+/* line 15, ../sass/app.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /* remember to define focus styles. Hee Haw */
-/* line 37, ../sass/app.scss */
+/* line 17, ../sass/app.scss */
 :focus {
   outline: 0;
 }
 
-/* line 39, ../sass/app.scss */
+/* line 19, ../sass/app.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
@@ -69,9 +108,9 @@ html {
 }
 
 /* ------------------------------------------
-  Typography
+Typography
 ---------------------------------------------*/
-/* line 49, ../sass/app.scss */
+/* line 29, ../sass/app.scss */
 html, body {
   color: #7A8387;
   background: #e7eef2;
@@ -80,14 +119,14 @@ html, body {
   line-height: 1.5em;
 }
 
-/* line 59, ../sass/app.scss */
+/* line 39, ../sass/app.scss */
 body,
 textarea,
 input {
   font: 13px/20px "OpenSans", sans-serif;
 }
 
-/* line 61, ../sass/app.scss */
+/* line 41, ../sass/app.scss */
 a {
   color: #526066;
   text-decoration: none;
@@ -97,54 +136,54 @@ a {
   transition: background 100ms linear, color 100ms linear;
 }
 
-/* line 69, ../sass/app.scss */
+/* line 49, ../sass/app.scss */
 a:hover {
   color: #3d4548;
 }
 
-/* line 73, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
-/* line 79, ../sass/app.scss */
+/* line 59, ../sass/app.scss */
 p > a {
   font-weight: bold;
 }
 
-/* line 81, ../sass/app.scss */
+/* line 61, ../sass/app.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   line-height: 1.5em;
 }
 
-/* line 88, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 h1 {
   font-size: 24px;
 }
 
-/* line 89, ../sass/app.scss */
+/* line 69, ../sass/app.scss */
 h1 small {
   font-size: 13px;
   font-weight: normal;
 }
 
-/* line 90, ../sass/app.scss */
+/* line 70, ../sass/app.scss */
 h2 {
   font-weight: normal;
   font-size: 16px;
   padding: 5px 0 5px 30px;
 }
 
-/* line 95, ../sass/app.scss */
+/* line 75, ../sass/app.scss */
 h2 small {
   font-size: 16px;
   font-weight: normal;
 }
 
-/* line 96, ../sass/app.scss */
+/* line 76, ../sass/app.scss */
 h3 {
   font-size: 11px;
   text-transform: uppercase;
@@ -152,29 +191,29 @@ h3 {
   margin-top: 10px;
 }
 
-/* line 103, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 h3 small {
   font-size: 14px;
   font-weight: normal;
 }
 
-/* line 104, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 h4 {
   font-size: 14px;
 }
 
-/* line 105, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 h5 {
   font-size: 13px;
 }
 
-/* line 106, ../sass/app.scss */
+/* line 86, ../sass/app.scss */
 h6 {
   font-size: 11px;
   font-weight: normal;
 }
 
-/* line 108, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 p {
   font-size: 16px;
   line-height: 1.5em;
@@ -183,7 +222,7 @@ p {
 }
 
 /* Use border-box box model */
-/* line 116, ../sass/app.scss */
+/* line 96, ../sass/app.scss */
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -191,11 +230,16 @@ p {
 }
 
 /* ------------------------------------------
-  Globals
+Globals
 ---------------------------------------------*/
-/* Top Branding/Navigation */
-/* line 127, ../sass/app.scss */
-#header {
+/* line 106, ../sass/app.scss */
+#container {
+  min-height: 100%;
+  min-width: 800px;
+  /* Top Branding/Navigation */
+}
+/* line 110, ../sass/app.scss */
+#container #header {
   position: absolute;
   top: 0;
   right: 0;
@@ -205,23 +249,20 @@ p {
   background: #667880;
   overflow: visible;
 }
-
-/* line 139, ../sass/app.scss */
-#header a.title {
+/* line 119, ../sass/app.scss */
+#container #header a.title {
   font-size: 14px;
   line-height: 30px;
   color: white;
   height: 30px;
   font-weight: bold;
 }
-
-/* line 147, ../sass/app.scss */
-#header a.title span {
+/* line 125, ../sass/app.scss */
+#container #header a.title span {
   display: none;
 }
-
-/* line 151, ../sass/app.scss */
-#header .navigation {
+/* line 129, ../sass/app.scss */
+#container #header .navigation {
   width: 800px;
   margin: 0 auto;
   font-size: 12px;
@@ -230,33 +271,183 @@ p {
   padding: 0;
   overflow: visible;
 }
-
-/* line 162, ../sass/app.scss */
-#main {
-  padding-top: 60px;
+/* line 139, ../sass/app.scss */
+#container #main {
+  padding-top: 30px;
   overflow: auto;
   padding-bottom: 60px;
   /* must be same height as the footer */
+  /* ------------------------------------------
+  Article
+  ---------------------------------------------*/
 }
-
-/* line 168, ../sass/app.scss */
-#post .inner {
-  position: relative;
+/* line 146, ../sass/app.scss */
+#container #main .article-navigation {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow: auto;
+}
+/* line 151, ../sass/app.scss */
+#container #main .article-navigation .article-link {
+  display: block;
+  float: left;
+  height: 40px;
+  width: 40px;
+  -webkit-border-radius: 20px 20px;
+  -moz-border-radius: 20px / 20px;
+  -ms-border-radius: 20px / 20px;
+  -o-border-radius: 20px / 20px;
+  border-radius: 20px / 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 3px solid #fff;
+  margin-right: 20px;
+}
+/* line 160, ../sass/app.scss */
+#container #main .article-navigation .article-link:hover, #container #main .article-navigation .article-link.active {
+  background: #078FA2;
+}
+/* line 165, ../sass/app.scss */
+#container #main .intro {
+  background: #E0E7EB;
+  /*background: #fff;*/
+  padding: 40px;
+  padding-bottom: 20px;
+  border-top: 1px solid #c3ccd0;
+  border-bottom: 1px solid #c3ccd0;
+}
+/* line 172, ../sass/app.scss */
+#container #main .intro .title {
+  font-family: 'Varela Round';
+  width: 800px;
+  margin: 20px auto;
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/* line 181, ../sass/app.scss */
+#container #main .intro .abstract {
+  width: 800px;
+  font-size: 20px;
+  margin: 20px auto;
+}
+/* line 186, ../sass/app.scss */
+#container #main .intro .meta {
+  width: 800px;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+/* line 192, ../sass/app.scss */
+#container #main .article-wrapper {
+  background: #fff;
+  padding-bottom: 50px;
+}
+/* line 195, ../sass/app.scss */
+#container #main .article-wrapper .post-content {
+  width: 800px;
+  margin: 0px auto;
+  padding: 20px 0;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+/* line 202, ../sass/app.scss */
+#container #main .article-wrapper .post-content * {
+  line-height: 1.2em;
+}
+/* line 205, ../sass/app.scss */
+#container #main .article-wrapper .post-content p, #container #main .article-wrapper .post-content ul, #container #main .article-wrapper .post-content ol, #container #main .article-wrapper .post-content li {
+  line-height: 1.5em;
+}
+/* line 208, ../sass/app.scss */
+#container #main .article-wrapper .post-content h1 {
+  font-size: 36px;
+  margin: 10px 0 20px 0;
+}
+/* line 209, ../sass/app.scss */
+#container #main .article-wrapper .post-content h2 {
+  font-size: 24px;
+  margin: 10px 0 20px 0;
+  font-weight: bold;
+  padding: 0;
+}
+/* line 210, ../sass/app.scss */
+#container #main .article-wrapper .post-content h3, #container #main .article-wrapper .post-content h4, #container #main .article-wrapper .post-content h5, #container #main .article-wrapper .post-content h6 {
+  text-transform: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+/* line 216, ../sass/app.scss */
+#container #main .article-wrapper .post-content blockquote {
+  padding-left: 19px;
+  border-left: 1px solid #C3CCD0;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+/* line 222, ../sass/app.scss */
+#container #main .article-wrapper .post-content ul {
+  margin-left: 0px;
+  padding-left: 20px;
+  list-style: disc;
+}
+/* line 227, ../sass/app.scss */
+#container #main .article-wrapper .post-content ol {
+  margin-left: 0px;
+  padding-left: 20px;
+  list-style: decimal;
+}
+/* line 232, ../sass/app.scss */
+#container #main .article-wrapper .post-content img {
+  max-width: 100%;
+}
+/* line 235, ../sass/app.scss */
+#container #main .article-wrapper .post-content a {
+  border-bottom: 1px dashed #C3CCD0;
+  font-weight: normal;
+}
+/* line 239, ../sass/app.scss */
+#container #main .article-wrapper .post-content p {
+  margin-bottom: 20px;
+}
+/* line 242, ../sass/app.scss */
+#container #main .article-wrapper .post-content p:last-child {
+  margin-bottom: 20px;
+}
+/* line 245, ../sass/app.scss */
+#container #main .article-wrapper .post-content code {
+  font-family: Menlo, monospace;
+  padding: 4px;
+  border-radius: 3px;
+  font-size: 12px;
+  border: 1px solid #C3CCD0;
+}
+/* line 252, ../sass/app.scss */
+#container #main .article-wrapper .post-content pre {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #C3CCD0;
+}
+/* line 257, ../sass/app.scss */
+#container #main .article-wrapper .post-content pre code {
+  border: none;
+}
+/* line 260, ../sass/app.scss */
+#container #main .article-wrapper .post-content hr {
+  margin: 5px 0 4px 0;
+  border-top: 1px solid #C3CCD0;
+  border-bottom: 0;
+  border-radius: 5px;
 }
 
 /* ------------------------------------------
-  Footer - a sticky one
+Footer - a sticky one
 ---------------------------------------------*/
 /* must declare 0 margins on everything, also for main layout components use padding, not 
 vertical margins (top and bottom) to add spacing, else those margins get added to total height 
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 181, ../sass/app.scss */
-#container {
-  min-height: 100%;
-  min-width: 800px;
-}
-
-/* line 186, ../sass/app.scss */
+/* line 278, ../sass/app.scss */
 #footer {
   position: relative;
   margin-top: -60px;
@@ -267,15 +458,17 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   border-top: 1px solid #c3ccd0;
   clear: both;
 }
-
-/* line 197, ../sass/app.scss */
+/* line 286, ../sass/app.scss */
 #footer .footer-content {
   width: 800px;
   margin: 0 auto;
   font-size: 15px;
 }
-
-/* line 203, ../sass/app.scss */
+/* line 290, ../sass/app.scss */
+#footer .footer-content p {
+  margin: 16px 0;
+}
+/* line 294, ../sass/app.scss */
 #footer a.help, #footer a.about {
   margin-right: 20px;
   padding-left: 20px;
@@ -285,23 +478,23 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   background-image: url("images/sprite.png");
 }
 
-/* line 211, ../sass/app.scss */
+/* line 307, ../sass/app.scss */
+#post .inner {
+  position: relative;
+}
+
+/* line 311, ../sass/app.scss */
 a.about {
   background-position: 0 -959px;
 }
 
-/* line 212, ../sass/app.scss */
+/* line 312, ../sass/app.scss */
 a.help {
   background-position: 0 -1049px;
 }
 
-/* line 214, ../sass/app.scss */
-#footer .footer-content p {
-  margin: 16px 0;
-}
-
 /*Opera Fix*/
-/* line 219, ../sass/app.scss */
+/* line 316, ../sass/app.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
@@ -313,195 +506,9 @@ body:before {
 }
 
 /* ------------------------------------------
-  Article
+Class Helpers
 ---------------------------------------------*/
-/* line 234, ../sass/app.scss */
-.article-navigation {
-  width: 800px;
-  margin: 0 auto;
-  margin-top: 30px;
-  overflow: auto;
-}
-
-/* line 241, ../sass/app.scss */
-.article-navigation .article-link {
-  display: block;
-  float: left;
-  height: 30px;
-  width: 30px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  background: rgba(0, 0, 0, 0.3);
-  border: 3px solid #fff;
-  margin-right: 10px;
-}
-
-/* line 257, ../sass/app.scss */
-.article-link:hover, .article-link.active {
-  background: #078FA2;
-}
-
-/* line 261, ../sass/app.scss */
-.article-wrapper {
-  background: #fff;
-  padding-bottom: 50px;
-}
-
-/* line 266, ../sass/app.scss */
-.intro {
-  margin-top: 50px;
-  background: #E0E7EB;
-  /*background: #fff;*/
-  padding: 40px;
-  padding-bottom: 20px;
-  border-top: 1px solid #c3ccd0;
-  border-bottom: 1px solid #c3ccd0;
-}
-
-/* line 277, ../sass/app.scss */
-.intro .title {
-  font-family: 'Varela Round';
-  width: 800px;
-  margin: 20px auto;
-  font-size: 36px;
-  margin-bottom: 10px;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-/* line 287, ../sass/app.scss */
-.intro .abstract {
-  width: 800px;
-  font-size: 20px;
-  margin: 20px auto;
-}
-
-/* line 293, ../sass/app.scss */
-.intro .meta {
-  width: 800px;
-  margin: 20px auto;
-  padding-top: 20px;
-}
-
-/* line 299, ../sass/app.scss */
-.post-content {
-  width: 800px;
-  margin: 0px auto;
-  padding: 20px 0;
-  font-family: 'OpenSans', sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-}
-
-/* line 308, ../sass/app.scss */
-.post-content * {
-  line-height: 1.2em;
-}
-
-/* line 312, ../sass/app.scss */
-.post-content p, .post-content ul, .post-content ol, .post-content li {
-  line-height: 1.5em;
-}
-
-/* line 317, ../sass/app.scss */
-.post-content h1 {
-  font-size: 36px;
-  margin: 10px 0 20px 0;
-}
-
-/* line 318, ../sass/app.scss */
-.post-content h2 {
-  font-size: 24px;
-  margin: 10px 0 20px 0;
-  font-weight: bold;
-  padding: 0;
-}
-
-/* line 319, ../sass/app.scss */
-.post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-  text-transform: none;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-}
-
-/* line 326, ../sass/app.scss */
-.post-content blockquote {
-  padding-left: 19px;
-  border-left: 1px solid #C3CCD0;
-  font-style: italic;
-  margin-bottom: 20px;
-}
-
-/* line 333, ../sass/app.scss */
-.post-content ul {
-  margin-left: 0px;
-  padding-left: 20px;
-  list-style: disc;
-}
-
-/* line 339, ../sass/app.scss */
-.post-content ol {
-  margin-left: 0px;
-  padding-left: 20px;
-  list-style: decimal;
-}
-
-/* line 345, ../sass/app.scss */
-.post-content img {
-  max-width: 100%;
-}
-
-/* line 349, ../sass/app.scss */
-.post-content a {
-  border-bottom: 1px dashed #C3CCD0;
-  font-weight: normal;
-}
-
-/* line 354, ../sass/app.scss */
-.post-content p {
-  margin-bottom: 20px;
-}
-
-/* line 358, ../sass/app.scss */
-.post-content p:last-child {
-  margin-bottom: 20px;
-}
-
-/* line 362, ../sass/app.scss */
-.post-content code {
-  font-family: Menlo, monospace;
-  padding: 4px;
-  border-radius: 3px;
-  font-size: 12px;
-  border: 1px solid #C3CCD0;
-}
-
-/* line 370, ../sass/app.scss */
-.post-content pre {
-  padding: 10px;
-  border-radius: 3px;
-  border: 1px solid #C3CCD0;
-}
-
-/* line 376, ../sass/app.scss */
-.post-content pre code {
-  border: none;
-}
-
-/* line 380, ../sass/app.scss */
-.post-content hr {
-  margin: 5px 0 4px 0;
-  border-top: 1px solid #C3CCD0;
-  border-bottom: 0;
-  border-radius: 5px;
-}
-
-/* ------------------------------------------
-  Class Helpers
----------------------------------------------*/
-/* line 390, ../sass/app.scss */
+/* line 328, ../sass/app.scss */
 .clearfix:after {
   content: '.';
   display: block;
@@ -510,19 +517,19 @@ body:before {
   visibility: hidden;
 }
 
-/* line 398, ../sass/app.scss */
+/* line 336, ../sass/app.scss */
 * html .clearfix {
   height: 1%;
 }
 
 /* IE6 */
-/* line 399, ../sass/app.scss */
+/* line 337, ../sass/app.scss */
 *:first-child + html .clearfix {
   min-height: 1%;
 }
 
 /* IE7 */
-/* line 401, ../sass/app.scss */
+/* line 339, ../sass/app.scss */
 .icon {
   background: transparent url(images/icons.png) no-repeat 0 0;
   width: 20px;
@@ -531,58 +538,58 @@ body:before {
   text-indent: -999em;
 }
 
-/* line 408, ../sass/app.scss */
+/* line 346, ../sass/app.scss */
 .fl {
   float: left;
 }
 
-/* line 409, ../sass/app.scss */
+/* line 347, ../sass/app.scss */
 .fr {
   float: right;
 }
 
-/* line 410, ../sass/app.scss */
+/* line 348, ../sass/app.scss */
 .clear {
   clear: both;
 }
 
-/* line 412, ../sass/app.scss */
+/* line 350, ../sass/app.scss */
 .inner {
   padding: 0px 0px 40px;
 }
 
-/* line 413, ../sass/app.scss */
+/* line 351, ../sass/app.scss */
 .hidden {
   display: none;
 }
 
-/* line 414, ../sass/app.scss */
+/* line 352, ../sass/app.scss */
 .centered {
   text-align: center;
 }
 
-/* line 415, ../sass/app.scss */
+/* line 353, ../sass/app.scss */
 .scrolling {
   overflow: auto;
 }
 
-/* line 416, ../sass/app.scss */
+/* line 354, ../sass/app.scss */
 .clipping {
   overflow: hidden;
 }
 
 /* ------------------------------------------
-  ios and small screen alterations
+ios and small screen alterations
 ---------------------------------------------*/
 @media all and (max-width: 480px) {
-  /* line 422, ../sass/app.scss */
+  /* line 360, ../sass/app.scss */
   #post .inner {
     width: 100%;
     margin: 0;
     padding: 20px 0 40px;
   }
 
-  /* line 427, ../sass/app.scss */
+  /* line 365, ../sass/app.scss */
   .toggle-mode {
     right: 0;
   }

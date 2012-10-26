@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include  _pages-navbar.html %}
+
+<div class="intro">
+	<div class="title">{{page.title}}</div>
+	<div class="abstract">{{page.abstract}}</div>
+	<div class="meta"> Last updated on {{ 'now' | date: "%B %d, %Y" }} </div>
+</div>
+
+<div class="article-wrapper">
+	<div class="help post-content">
+		{{ content }}
+	</div>
+</div>
