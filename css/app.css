@@ -4,6 +4,7 @@
   v2.0 | 20110126
   License: none (public domain)
 ---------------------------------------------*/
+/* line 17, ../sass/app.scss */
 html, body, div, span, applet, object, iframe, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, img, ins, kbd, q, s, samp,
@@ -11,8 +12,8 @@ small, strike, sub, sup, tt, var, center,
 dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -21,43 +22,72 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  }
+}
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* line 27, ../sass/app.scss */
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
-  }
-body { line-height: 1; }
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after,
-q:before, q:after { content: ''; content: none; }
-/* tables still need 'cellspacing="0"' in the markup */
-table { border-collapse: collapse; border-spacing: 0; }
-/* remember to define focus styles. Hee Haw */
-:focus { outline: 0; }
+}
 
+/* line 30, ../sass/app.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../sass/app.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 33, ../sass/app.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 35, ../sass/app.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* remember to define focus styles. Hee Haw */
+/* line 37, ../sass/app.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 39, ../sass/app.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  }
-
+}
 
 /* ------------------------------------------
   Typography
 ---------------------------------------------*/
-html,body {
+/* line 49, ../sass/app.scss */
+html, body {
   color: #7A8387;
   background: #e7eef2;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   line-height: 1.5em;
-  }
+}
 
+/* line 59, ../sass/app.scss */
 body,
 textarea,
-input { font: 13px/20px 'OpenSans', sans-serif; }
+input {
+  font: 13px/20px "OpenSans", sans-serif;
+}
 
+/* line 61, ../sass/app.scss */
 a {
   color: #526066;
   text-decoration: none;
@@ -65,65 +95,106 @@ a {
   -o-transition: background 100ms linear, color 100ms linear;
   -webkit-transition: background 100ms linear, color 100ms linear;
   transition: background 100ms linear, color 100ms linear;
-  }
+}
+
+/* line 69, ../sass/app.scss */
 a:hover {
   color: #3d4548;
-  }
+}
 
+/* line 73, ../sass/app.scss */
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
-  }
+}
 
-p > a {font-weight: bold;}
+/* line 79, ../sass/app.scss */
+p > a {
+  font-weight: bold;
+}
 
-h1,h2,h3,h4,h5,h6 {
+/* line 81, ../sass/app.scss */
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   line-height: 1.5em;
-  }
-h4, h5, h6 {
-  }
+}
 
-h1 { font-size: 24px;}
-h1 small { font-size: 13px; font-weight: normal; }
-h2 { 
+/* line 88, ../sass/app.scss */
+h1 {
+  font-size: 24px;
+}
+
+/* line 89, ../sass/app.scss */
+h1 small {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* line 90, ../sass/app.scss */
+h2 {
   font-weight: normal;
   font-size: 16px;
   padding: 5px 0 5px 30px;
-  }
-h2 small { font-size: 16px; font-weight: normal; }
-h3 { 
+}
+
+/* line 95, ../sass/app.scss */
+h2 small {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* line 96, ../sass/app.scss */
+h3 {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 10px;
-  }
+}
 
-h3 small { font-size: 14px; font-weight: normal; }
-h4 { font-size: 14px; }
-h5 { font-size: 13px; }
-h6 { font-size: 11px; font-weight: normal; }
+/* line 103, ../sass/app.scss */
+h3 small {
+  font-size: 14px;
+  font-weight: normal;
+}
 
+/* line 104, ../sass/app.scss */
+h4 {
+  font-size: 14px;
+}
+
+/* line 105, ../sass/app.scss */
+h5 {
+  font-size: 13px;
+}
+
+/* line 106, ../sass/app.scss */
+h6 {
+  font-size: 11px;
+  font-weight: normal;
+}
+
+/* line 108, ../sass/app.scss */
 p {
   font-size: 16px;
   line-height: 1.5em;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
   margin-top: 10px;
-  }
-/* Use border-box box model */
+}
 
+/* Use border-box box model */
+/* line 116, ../sass/app.scss */
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  }
+}
 
 /* ------------------------------------------
   Globals
 ---------------------------------------------*/
-
 /* Top Branding/Navigation */
+/* line 127, ../sass/app.scss */
 #header {
   position: absolute;
   top: 0;
@@ -133,21 +204,23 @@ p {
   height: 30px;
   background: #667880;
   overflow: visible;
-  }
+}
 
-
+/* line 139, ../sass/app.scss */
 #header a.title {
   font-size: 14px;
   line-height: 30px;
   color: white;
   height: 30px;
   font-weight: bold;
-  }
+}
 
+/* line 147, ../sass/app.scss */
 #header a.title span {
   display: none;
-  }
+}
 
+/* line 151, ../sass/app.scss */
 #header .navigation {
   width: 800px;
   margin: 0 auto;
@@ -156,81 +229,93 @@ p {
   line-height: 30px;
   padding: 0;
   overflow: visible;
-  }
+}
 
- 
+/* line 162, ../sass/app.scss */
 #main {
   padding-top: 60px;
-  overflow:auto;
-  padding-bottom: 60px; /* must be same height as the footer */
-  }
+  overflow: auto;
+  padding-bottom: 60px;
+  /* must be same height as the footer */
+}
 
-#post .inner  {
+/* line 168, ../sass/app.scss */
+#post .inner {
   position: relative;
-  }
+}
 
 /* ------------------------------------------
   Footer - a sticky one
 ---------------------------------------------*/
-
-
 /* must declare 0 margins on everything, also for main layout components use padding, not 
 vertical margins (top and bottom) to add spacing, else those margins get added to total height 
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-
-#container { 
+/* line 181, ../sass/app.scss */
+#container {
   min-height: 100%;
   min-width: 800px;
-  }
+}
 
+/* line 186, ../sass/app.scss */
 #footer {
-
   position: relative;
-  margin-top: -60px; /* negative value of footer height */
+  margin-top: -60px;
+  /* negative value of footer height */
   height: 60px;
   overflow: hidden;
   line-height: 60px;
   border-top: 1px solid #c3ccd0;
-  clear:both;
-  }
+  clear: both;
+}
 
+/* line 197, ../sass/app.scss */
 #footer .footer-content {
   width: 800px;
   margin: 0 auto;
   font-size: 15px;
-  }
+}
 
-#footer a.help, #footer a.about{ 
+/* line 203, ../sass/app.scss */
+#footer a.help, #footer a.about {
   margin-right: 20px;
   padding-left: 20px;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
-  background-image: url('images/sprite.png');
-  }
-  a.about { background-position: 0 -959px; }
-  a.help { background-position: 0 -1049px; }
+  background-image: url("images/sprite.png");
+}
 
+/* line 211, ../sass/app.scss */
+a.about {
+  background-position: 0 -959px;
+}
+
+/* line 212, ../sass/app.scss */
+a.help {
+  background-position: 0 -1049px;
+}
+
+/* line 214, ../sass/app.scss */
 #footer .footer-content p {
   margin: 16px 0;
-  }
-  
-/*Opera Fix*/
-body:before {/* thanks to Maleika (Kohoutec)*/
-  content:"";
-  height:100%;
-  float:left;
-  width:0;
-  margin-top:-32767px;/* thank you Erik J - negate effect of float*/
-  }
+}
 
+/*Opera Fix*/
+/* line 219, ../sass/app.scss */
+body:before {
+  /* thanks to Maleika (Kohoutec)*/
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+  /* thank you Erik J - negate effect of float*/
+}
 
 /* ------------------------------------------
   Article
 ---------------------------------------------*/
-
-
-
+/* line 234, ../sass/app.scss */
 .article-navigation {
   width: 800px;
   margin: 0 auto;
@@ -238,64 +323,68 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   overflow: auto;
 }
 
+/* line 241, ../sass/app.scss */
 .article-navigation .article-link {
   display: block;
   float: left;
   height: 30px;
   width: 30px;
-
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
-
-  background: rgba(0,0,0, 0.3);
-  
+  background: rgba(0, 0, 0, 0.3);
   border: 3px solid #fff;
   margin-right: 10px;
 }
 
+/* line 257, ../sass/app.scss */
 .article-link:hover, .article-link.active {
   background: #078FA2;
 }
 
+/* line 261, ../sass/app.scss */
 .article-wrapper {
   background: #fff;
   padding-bottom: 50px;
 }
 
+/* line 266, ../sass/app.scss */
 .intro {
   margin-top: 50px;
   background: #E0E7EB;
   /*background: #fff;*/
   padding: 40px;
   padding-bottom: 20px;
-
   border-top: 1px solid #c3ccd0;
   border-bottom: 1px solid #c3ccd0;
 }
 
+/* line 277, ../sass/app.scss */
 .intro .title {
   font-family: 'Varela Round';
   width: 800px;
   margin: 20px auto;
-  font-size: 36px; 
-  margin-bottom: 10px; 
+  font-size: 36px;
+  margin-bottom: 10px;
   font-weight: bold;
   padding-bottom: 10px;
 }
 
+/* line 287, ../sass/app.scss */
 .intro .abstract {
   width: 800px;
   font-size: 20px;
   margin: 20px auto;
 }
 
+/* line 293, ../sass/app.scss */
 .intro .meta {
   width: 800px;
   margin: 20px auto;
   padding-top: 20px;
 }
 
+/* line 299, ../sass/app.scss */
 .post-content {
   width: 800px;
   margin: 0px auto;
@@ -303,128 +392,198 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   font-family: 'OpenSans', sans-serif;
   font-weight: normal;
   font-size: 16px;
-  }
+}
 
+/* line 308, ../sass/app.scss */
 .post-content * {
   line-height: 1.2em;
-  }
+}
 
-.post-content p, .post-content ul, .post-content ol,  .post-content li {
+/* line 312, ../sass/app.scss */
+.post-content p, .post-content ul, .post-content ol, .post-content li {
   line-height: 1.5em;
-  }
+}
 
+/* line 317, ../sass/app.scss */
+.post-content h1 {
+  font-size: 36px;
+  margin: 10px 0 20px 0;
+}
 
-.post-content h1 { font-size: 36px; margin: 10px 0 20px 0; }
-.post-content h2 { font-size: 24px; margin: 10px 0 20px 0; font-weight: bold; padding: 0; }
-.post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
+/* line 318, ../sass/app.scss */
+.post-content h2 {
+  font-size: 24px;
+  margin: 10px 0 20px 0;
+  font-weight: bold;
+  padding: 0;
+}
+
+/* line 319, ../sass/app.scss */
+.post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   text-transform: none;
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  }
-  
+}
+
+/* line 326, ../sass/app.scss */
 .post-content blockquote {
   padding-left: 19px;
   border-left: 1px solid #C3CCD0;
   font-style: italic;
   margin-bottom: 20px;
-  }
+}
 
+/* line 333, ../sass/app.scss */
 .post-content ul {
   margin-left: 0px;
   padding-left: 20px;
   list-style: disc;
-  }
+}
 
+/* line 339, ../sass/app.scss */
 .post-content ol {
   margin-left: 0px;
   padding-left: 20px;
   list-style: decimal;
-  }
+}
 
+/* line 345, ../sass/app.scss */
 .post-content img {
   max-width: 100%;
-  }
+}
 
+/* line 349, ../sass/app.scss */
 .post-content a {
   border-bottom: 1px dashed #C3CCD0;
   font-weight: normal;
-  }
+}
 
+/* line 354, ../sass/app.scss */
 .post-content p {
   margin-bottom: 20px;
-  }
+}
 
+/* line 358, ../sass/app.scss */
 .post-content p:last-child {
   margin-bottom: 20px;
-  }
-  
+}
+
+/* line 362, ../sass/app.scss */
 .post-content code {
   font-family: Menlo, monospace;
   padding: 4px;
   border-radius: 3px;
   font-size: 12px;
   border: 1px solid #C3CCD0;
-  }
+}
 
+/* line 370, ../sass/app.scss */
 .post-content pre {
   padding: 10px;
   border-radius: 3px;
   border: 1px solid #C3CCD0;
-  }
+}
 
+/* line 376, ../sass/app.scss */
 .post-content pre code {
   border: none;
-  }
+}
 
+/* line 380, ../sass/app.scss */
 .post-content hr {
   margin: 5px 0 4px 0;
   border-top: 1px solid #C3CCD0;
   border-bottom: 0;
   border-radius: 5px;
-  }
+}
 
 /* ------------------------------------------
   Class Helpers
 ---------------------------------------------*/
+/* line 390, ../sass/app.scss */
 .clearfix:after {
   content: '.';
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
-  }
+}
 
-* html .clearfix { height: 1%; } /* IE6 */
-*:first-child + html .clearfix { min-height: 1%; } /* IE7 */
+/* line 398, ../sass/app.scss */
+* html .clearfix {
+  height: 1%;
+}
 
+/* IE6 */
+/* line 399, ../sass/app.scss */
+*:first-child + html .clearfix {
+  min-height: 1%;
+}
+
+/* IE7 */
+/* line 401, ../sass/app.scss */
 .icon {
   background: transparent url(images/icons.png) no-repeat 0 0;
   width: 20px;
   height: 20px;
   display: block;
   text-indent: -999em;
-  }
-.fl { float: left; }
-.fr { float: right; }
-.clear { clear: both; }
+}
 
-.inner      { padding: 0px 0px 40px; }
-.hidden     { display: none; }
-.centered   { text-align: center; }
-.scrolling  { overflow: auto; }
-.clipping   { overflow: hidden; }
+/* line 408, ../sass/app.scss */
+.fl {
+  float: left;
+}
+
+/* line 409, ../sass/app.scss */
+.fr {
+  float: right;
+}
+
+/* line 410, ../sass/app.scss */
+.clear {
+  clear: both;
+}
+
+/* line 412, ../sass/app.scss */
+.inner {
+  padding: 0px 0px 40px;
+}
+
+/* line 413, ../sass/app.scss */
+.hidden {
+  display: none;
+}
+
+/* line 414, ../sass/app.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 415, ../sass/app.scss */
+.scrolling {
+  overflow: auto;
+}
+
+/* line 416, ../sass/app.scss */
+.clipping {
+  overflow: hidden;
+}
 
 /* ------------------------------------------
   ios and small screen alterations
 ---------------------------------------------*/
- @media all and (max-width: 480px) {
+@media all and (max-width: 480px) {
+  /* line 422, ../sass/app.scss */
   #post .inner {
     width: 100%;
     margin: 0;
     padding: 20px 0 40px;
-    }
+  }
+
+  /* line 427, ../sass/app.scss */
   .toggle-mode {
     right: 0;
-    }
   }
+}
