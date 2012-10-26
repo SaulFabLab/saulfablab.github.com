@@ -264,9 +264,32 @@ Globals
 					border-radius: 5px;
 				}
 			}
-
+			.team{
+				.member{
+					float: left;
+					&:first-child{
+						margin-left: -25px;
+					};
+					.thumbnail{
+						display: block;
+						height: 120px;
+						width: 120px;
+						@include border-radius(60px, 60px);
+						background: rgba(0,0,0, 0.3);
+						border: 3px solid #fff;
+						margin: 0px 25px 10px 25px;
+					}
+					div{
+						text-align: center;
+						.title{
+						}
+						.subtitle{
+							font-size: 12px;
+						}
+					}
+				}
+			}
 		}
-		
 	}
 }
 /* ------------------------------------------

@@ -7,5 +7,3 @@ categories:
 - pages
 published: true
 ---
-
-This is a trial

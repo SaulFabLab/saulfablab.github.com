@@ -440,6 +440,36 @@ Globals
   border-bottom: 0;
   border-radius: 5px;
 }
+/* line 268, ../sass/app.scss */
+#container #main .article-wrapper .team .member {
+  float: left;
+}
+/* line 270, ../sass/app.scss */
+#container #main .article-wrapper .team .member:first-child {
+  margin-left: -25px;
+}
+/* line 273, ../sass/app.scss */
+#container #main .article-wrapper .team .member .thumbnail {
+  display: block;
+  height: 120px;
+  width: 120px;
+  -webkit-border-radius: 60px 60px;
+  -moz-border-radius: 60px / 60px;
+  -ms-border-radius: 60px / 60px;
+  -o-border-radius: 60px / 60px;
+  border-radius: 60px / 60px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 3px solid #fff;
+  margin: 0px 25px 10px 25px;
+}
+/* line 282, ../sass/app.scss */
+#container #main .article-wrapper .team .member div {
+  text-align: center;
+}
+/* line 286, ../sass/app.scss */
+#container #main .article-wrapper .team .member div .subtitle {
+  font-size: 12px;
+}
 
 /* ------------------------------------------
 Footer - a sticky one
@@ -447,7 +477,7 @@ Footer - a sticky one
 /* must declare 0 margins on everything, also for main layout components use padding, not 
 vertical margins (top and bottom) to add spacing, else those margins get added to total height 
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 278, ../sass/app.scss */
+/* line 301, ../sass/app.scss */
 #footer {
   position: relative;
   margin-top: -60px;
@@ -458,17 +488,17 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   border-top: 1px solid #c3ccd0;
   clear: both;
 }
-/* line 286, ../sass/app.scss */
+/* line 309, ../sass/app.scss */
 #footer .footer-content {
   width: 800px;
   margin: 0 auto;
   font-size: 15px;
 }
-/* line 290, ../sass/app.scss */
+/* line 313, ../sass/app.scss */
 #footer .footer-content p {
   margin: 16px 0;
 }
-/* line 294, ../sass/app.scss */
+/* line 317, ../sass/app.scss */
 #footer a.help, #footer a.about {
   margin-right: 20px;
   padding-left: 20px;
@@ -478,23 +508,23 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   background-image: url("images/sprite.png");
 }
 
-/* line 307, ../sass/app.scss */
+/* line 330, ../sass/app.scss */
 #post .inner {
   position: relative;
 }
 
-/* line 311, ../sass/app.scss */
+/* line 334, ../sass/app.scss */
 a.about {
   background-position: 0 -959px;
 }
 
-/* line 312, ../sass/app.scss */
+/* line 335, ../sass/app.scss */
 a.help {
   background-position: 0 -1049px;
 }
 
 /*Opera Fix*/
-/* line 316, ../sass/app.scss */
+/* line 339, ../sass/app.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
@@ -508,7 +538,7 @@ body:before {
 /* ------------------------------------------
 Class Helpers
 ---------------------------------------------*/
-/* line 328, ../sass/app.scss */
+/* line 351, ../sass/app.scss */
 .clearfix:after {
   content: '.';
   display: block;
@@ -517,19 +547,19 @@ Class Helpers
   visibility: hidden;
 }
 
-/* line 336, ../sass/app.scss */
+/* line 359, ../sass/app.scss */
 * html .clearfix {
   height: 1%;
 }
 
 /* IE6 */
-/* line 337, ../sass/app.scss */
+/* line 360, ../sass/app.scss */
 *:first-child + html .clearfix {
   min-height: 1%;
 }
 
 /* IE7 */
-/* line 339, ../sass/app.scss */
+/* line 362, ../sass/app.scss */
 .icon {
   background: transparent url(images/icons.png) no-repeat 0 0;
   width: 20px;
@@ -538,42 +568,42 @@ Class Helpers
   text-indent: -999em;
 }
 
-/* line 346, ../sass/app.scss */
+/* line 369, ../sass/app.scss */
 .fl {
   float: left;
 }
 
-/* line 347, ../sass/app.scss */
+/* line 370, ../sass/app.scss */
 .fr {
   float: right;
 }
 
-/* line 348, ../sass/app.scss */
+/* line 371, ../sass/app.scss */
 .clear {
   clear: both;
 }
 
-/* line 350, ../sass/app.scss */
+/* line 373, ../sass/app.scss */
 .inner {
   padding: 0px 0px 40px;
 }
 
-/* line 351, ../sass/app.scss */
+/* line 374, ../sass/app.scss */
 .hidden {
   display: none;
 }
 
-/* line 352, ../sass/app.scss */
+/* line 375, ../sass/app.scss */
 .centered {
   text-align: center;
 }
 
-/* line 353, ../sass/app.scss */
+/* line 376, ../sass/app.scss */
 .scrolling {
   overflow: auto;
 }
 
-/* line 354, ../sass/app.scss */
+/* line 377, ../sass/app.scss */
 .clipping {
   overflow: hidden;
 }
@@ -582,14 +612,14 @@ Class Helpers
 ios and small screen alterations
 ---------------------------------------------*/
 @media all and (max-width: 480px) {
-  /* line 360, ../sass/app.scss */
+  /* line 383, ../sass/app.scss */
   #post .inner {
     width: 100%;
     margin: 0;
     padding: 20px 0 40px;
   }
 
-  /* line 365, ../sass/app.scss */
+  /* line 388, ../sass/app.scss */
   .toggle-mode {
     right: 0;
   }
