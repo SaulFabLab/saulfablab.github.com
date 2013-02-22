@@ -1,5 +1,5 @@
 3.1.16 (Brainy Betty)
-d9bfa630c3a54d3657085f71d4d4b055258e66b6
+72266a0574a18428fec03474b9dff80398cff3c9
 o:Sass::Tree::RootNode
 :
 @linei:@template"Ì @import "compass/reset";
@@ -123,7 +123,7 @@ Globals
 		left: 0;
 		padding: 0 20px;
 		height: 30px;
-		background: $color-palette3;
+		background: $color-palette4;
 		overflow: visible;
 		a.title {
 			font-size: 14px;
@@ -467,7 +467,7 @@ Globals
 ---------------------------------------------*/o;;it;o;;it;[o;;[o;;it;[o:Sass::Selector::Id;it;" ;["container;@Á;@Á;i ;[
 o;;iu;;;i ;[ ;@;["min-height;o;;; ;@;"	100%o;;iv;;;i ;[ ;@;["min-width;o;;; ;@;"
 800pxo;;iw;0;[ ;0;@;[""/* Top Branding/Navigation */o;;ix;o;;ix;[o;;[o;;ix;[o;@;ix;" ;["header;@;@;i ;[o;;iy;;;i ;[ ;@;["position;o;;; ;@;"absoluteo;;iz;;;i ;[ ;@;["top;o;;; ;@;"0o;;i{;;;i ;[ ;@;["
-right;o;;; ;@;"0o;;i|;;;i ;[ ;@;["	left;o;;; ;@;"0o;;i};;;i ;[ ;@;["padding;o;;; ;@;"0 20pxo;;i~;;;i ;[ ;@;["height;o;;; ;@;"	30pxo;;i;;;i ;[ ;@;["background;o;/	;i;@;"color-palette3;0"color_palette3o;;i{;;;i ;[ ;@;["overflow;o;;; ;@;"visibleo;;i|;o;;i|;[o;;[o;;i|;[o;	;i|;0;" ;["ao:Sass::Selector::Class;i|;@@;["
+right;o;;; ;@;"0o;;i|;;;i ;[ ;@;["	left;o;;; ;@;"0o;;i};;;i ;[ ;@;["padding;o;;; ;@;"0 20pxo;;i~;;;i ;[ ;@;["height;o;;; ;@;"	30pxo;;i;;;i ;[ ;@;["background;o;/	;i;@;"color-palette4;0"color_palette4o;;i{;;;i ;[ ;@;["overflow;o;;; ;@;"visibleo;;i|;o;;i|;[o;;[o;;i|;[o;	;i|;0;" ;["ao:Sass::Selector::Class;i|;@@;["
 title;@@;@@;i ;[o;;i};;;i ;[ ;@;["font-size;o;;; ;@;"	14pxo;;i~;;;i ;[ ;@;["line-height;o;;; ;@;"	30pxo;;i;;;i ;[ ;@;["
 color;o;;; ;@;"
 whiteo;;iÄ;;;i ;[ ;@;["height;o;;; ;@;"	30pxo;;iÅ;;;i ;[ ;@;["font-weight;o;;; ;@;"	boldo;;iÇ;o;;iÇ;[o;;[o;;iÇ;[o;	;iÇ;0;" ;["	span;@m;@m;i ;[o;;iÉ;;;i ;[ ;@;["display;o;;; ;@;"	none;@;!T;"["	span;@;!T;"["a.titleo;;iÜ;o;;iÜ;[o;;[o;;iÜ;[o;A;iÜ;" ;["navigation;@É;@É;i ;[o;;iá;;;i ;[ ;@;["
