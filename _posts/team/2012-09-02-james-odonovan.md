@@ -1,7 +1,7 @@
 ---
 layout: team
 title: "James O'Donovan"
-subtitle: Teaching assistant
+subtitle:
 image: 
 categories:
 - team

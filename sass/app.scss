@@ -21,14 +21,19 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
-
+$color-palette0:#D0E6EE;
+$color-palette1:#83B4C8;
+$color-palette2:#669CB1;
+$color-palette3:#6DA5BD;
+$color-palette4:#356F8E;
+$color-palette5:#215A7C;
 
 /* ------------------------------------------
 Typography
 ---------------------------------------------*/
 html,body {
 	color: #7A8387;
-	background: #e7eef2;
+	background: $color-palette0;
 	-webkit-font-smoothing: antialiased;
 	height: 100%;
 	line-height: 1.5em;
@@ -114,7 +119,7 @@ Globals
 		left: 0;
 		padding: 0 20px;
 		height: 30px;
-		background: #667880;
+		background: $color-palette3;
 		overflow: visible;
 		a.title {
 			font-size: 14px;
@@ -137,6 +142,7 @@ Globals
 		}
 	}
 	#main {
+
 		padding-top: 30px;
 		overflow:auto;
 		padding-bottom: 60px; /* must be same height as the footer */
@@ -144,6 +150,7 @@ Globals
 		Article
 		---------------------------------------------*/
 		.article-navigation {
+			display: none;
 			width: 800px;
 			margin: 0 auto;
 			padding: 20px 0;
@@ -163,7 +170,8 @@ Globals
 			}
 		}
 		.intro {
-			background: #E0E7EB;
+			color: white;
+			background: url("/img/background.jpg") repeat-x;
 			/*background: #fff;*/
 			padding: 40px;
 			padding-bottom: 20px;
@@ -171,6 +179,10 @@ Globals
 			border-bottom: 1px solid #c3ccd0;
 			.title {
 				font-family: 'Varela Round';
+				color: rgba(255,255,255,0);
+				background: url("/img/logo.png") no-repeat;
+				background-size: 80%;
+				height: 60px;
 				width: 800px;
 				margin: 20px auto;
 				font-size: 36px; 
@@ -299,6 +311,7 @@ Footer - a sticky one
 vertical margins (top and bottom) to add spacing, else those margins get added to total height 
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
 #footer {
+	background: $color-palette0;
 	position: relative;
 	margin-top: -60px; /* negative value of footer height */
 	height: 60px;
